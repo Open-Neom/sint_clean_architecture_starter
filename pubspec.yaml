@@ -1,0 +1,21 @@
+name: sint_clean_architecture_starter
+description: Minimal Clean Architecture starter for Flutter powered by SINT 2.1 (Contract-First DI, O(1) Signals, Global Auth Guard & i18n) — Open Neom standard.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sint: ^2.1.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
